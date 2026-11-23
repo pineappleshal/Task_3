@@ -1,0 +1,71 @@
+{
+  "name": "Переход в личный кабинет из конструктора",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "Перейти в личный кабинет",
+      "status": "passed",
+      "start": 1795416715285,
+      "stop": 1795416715336
+    }
+  ],
+  "parameters": [
+    {
+      "name": "browser_name",
+      "value": "'chrome'"
+    }
+  ],
+  "start": 1795416715285,
+  "stop": 1795416715880,
+  "uuid": "2ce4669f-b866-475c-a0e1-b8c10bf0849b",
+  "historyId": "de5566c1b41ac626737c86cd12d7b4fb",
+  "testCaseId": "d82609aed393ed9a4fc945a5547b9fe1",
+  "fullName": "tests.test_account.TestAccount#test_open_account",
+  "labels": [
+    {
+      "name": "browser",
+      "value": "chrome"
+    },
+    {
+      "name": "feature",
+      "value": "Личный кабинет"
+    },
+    {
+      "name": "parentSuite",
+      "value": "tests"
+    },
+    {
+      "name": "suite",
+      "value": "test_account"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestAccount"
+    },
+    {
+      "name": "host",
+      "value": "WIN-IJRG074EARB"
+    },
+    {
+      "name": "thread",
+      "value": "11160-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "tests.test_account"
+    }
+  ],
+  "titlePath": [
+    "tests",
+    "test_account.py",
+    "TestAccount"
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "name": "Переход в историю заказов",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "Перейти в личный кабинет",
+      "status": "passed",
+      "start": 1795416744280,
+      "stop": 1795416744377
+    },
+    {
+      "name": "Перейти в историю заказов",
+      "status": "passed",
+      "start": 1795416744377,
+      "stop": 1795416744531
+    }
+  ],
+  "parameters": [
+    {
+      "name": "browser_name",
+      "value": "'firefox'"
+    }
+  ],
+  "start": 1795416744280,
+  "stop": 1795416744541,
+  "uuid": "8e8bf59b-88f6-4ac7-98a9-25d7f6993108",
+  "historyId": "ea268dfef5fce926d7a09c1013ad42d8",
+  "testCaseId": "ae59fb8506d61a297a423b0f135105a4",
+  "fullName": "tests.test_account.TestAccount#test_open_order_history",
+  "labels": [
+    {
+      "name": "browser",
+      "value": "firefox"
+    },
+    {
+      "name": "feature",
+      "value": "Личный кабинет"
+    },
+    {
+      "name": "parentSuite",
+      "value": "tests"
+    },
+    {
+      "name": "suite",
+      "value": "test_account"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestAccount"
+    },
+    {
+      "name": "host",
+      "value": "WIN-IJRG074EARB"
+    },
+    {
+      "name": "thread",
+      "value": "11160-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "tests.test_account"
+    }
+  ],
+  "titlePath": [
+    "tests",
+    "test_account.py",
+    "TestAccount"
+  ]
+}

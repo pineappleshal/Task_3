@@ -1,0 +1,40 @@
+{
+  "uuid": "9325d0c1-19f5-4a10-bb7b-4b59d24d1ac3",
+  "children": [
+    "cddca246-3c36-4831-96bf-0c0cc1d93b7e"
+  ],
+  "befores": [
+    {
+      "name": "user_api",
+      "status": "passed",
+      "steps": [
+        {
+          "name": "Создать тестового пользователя через API",
+          "status": "passed",
+          "start": 1795416962995,
+          "stop": 1795416963157
+        }
+      ],
+      "start": 1795416962994,
+      "stop": 1795416963157
+    }
+  ],
+  "afters": [
+    {
+      "name": "user_api::0",
+      "status": "passed",
+      "steps": [
+        {
+          "name": "Удалить тестового пользователя через API",
+          "status": "passed",
+          "start": 1795416965618,
+          "stop": 1795416965657
+        }
+      ],
+      "start": 1795416965618,
+      "stop": 1795416965658
+    }
+  ],
+  "start": 1795416962994,
+  "stop": 1795416965658
+}

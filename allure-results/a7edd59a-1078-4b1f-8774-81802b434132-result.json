@@ -1,0 +1,95 @@
+{
+  "name": "Значок показа пароля активирует поле",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "Открыть страницу '/forgot-password'",
+      "status": "passed",
+      "parameters": [
+        {
+          "name": "path",
+          "value": "'/forgot-password'"
+        }
+      ],
+      "start": 1795416987700,
+      "stop": 1795416988295
+    },
+    {
+      "name": "Запросить восстановление пароля для тестового пользователя",
+      "status": "passed",
+      "parameters": [
+        {
+          "name": "email",
+          "value": "'valeriia_ui_a042f49acde4433c9c443abd9a8234e8@example.com'"
+        }
+      ],
+      "start": 1795416988295,
+      "stop": 1795416988678
+    },
+    {
+      "name": "Нажать значок показа пароля",
+      "status": "passed",
+      "start": 1795416989211,
+      "stop": 1795416989814
+    }
+  ],
+  "parameters": [
+    {
+      "name": "browser_name",
+      "value": "'firefox'"
+    }
+  ],
+  "start": 1795416987699,
+  "stop": 1795416989861,
+  "uuid": "0e99e7da-bdb4-4db4-b92e-2aed5806bd48",
+  "historyId": "7200cc027b0b0824c854cefeb14a8a08",
+  "testCaseId": "e3291ca11886c74b9db1310526f0f3f5",
+  "fullName": "tests.test_password_recovery.TestPasswordRecovery#test_password_visibility_activates_field",
+  "labels": [
+    {
+      "name": "browser",
+      "value": "firefox"
+    },
+    {
+      "name": "feature",
+      "value": "Восстановление пароля"
+    },
+    {
+      "name": "parentSuite",
+      "value": "tests"
+    },
+    {
+      "name": "suite",
+      "value": "test_password_recovery"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestPasswordRecovery"
+    },
+    {
+      "name": "host",
+      "value": "WIN-IJRG074EARB"
+    },
+    {
+      "name": "thread",
+      "value": "11160-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "tests.test_password_recovery"
+    }
+  ],
+  "titlePath": [
+    "tests",
+    "test_password_recovery.py",
+    "TestPasswordRecovery"
+  ]
+}

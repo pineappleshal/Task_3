@@ -1,0 +1,16 @@
+{
+  "uuid": "eb76d7db-002f-4cb4-a242-22b010e86624",
+  "children": [
+    "971ed01b-1b41-4217-915b-10eda478a9ed"
+  ],
+  "befores": [
+    {
+      "name": "user",
+      "status": "passed",
+      "start": 1795416864972,
+      "stop": 1795416864972
+    }
+  ],
+  "start": 1795416864972,
+  "stop": 1795416869393
+}

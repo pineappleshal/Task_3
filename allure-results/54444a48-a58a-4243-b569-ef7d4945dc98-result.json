@@ -1,0 +1,83 @@
+{
+  "name": "Заказ из истории пользователя отображается в общей ленте",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "Перейти в личный кабинет",
+      "status": "passed",
+      "start": 1795416879295,
+      "stop": 1795416879462
+    },
+    {
+      "name": "Перейти в историю заказов",
+      "status": "passed",
+      "start": 1795416879462,
+      "stop": 1795416879635
+    },
+    {
+      "name": "Перейти в ленту заказов",
+      "status": "passed",
+      "start": 1795416880151,
+      "stop": 1795416880249
+    }
+  ],
+  "parameters": [
+    {
+      "name": "browser_name",
+      "value": "'firefox'"
+    }
+  ],
+  "start": 1795416879294,
+  "stop": 1795416881046,
+  "uuid": "38827128-bdd3-43f2-9e7b-b0751fca52a2",
+  "historyId": "0fa4856c2fde42da632fde8dd7628df2",
+  "testCaseId": "315c193cb62dcec7e3ae32ff456ee6db",
+  "fullName": "tests.test_feed.TestFeed#test_history_order_appears_in_feed",
+  "labels": [
+    {
+      "name": "browser",
+      "value": "firefox"
+    },
+    {
+      "name": "feature",
+      "value": "Лента заказов"
+    },
+    {
+      "name": "parentSuite",
+      "value": "tests"
+    },
+    {
+      "name": "suite",
+      "value": "test_feed"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestFeed"
+    },
+    {
+      "name": "host",
+      "value": "WIN-IJRG074EARB"
+    },
+    {
+      "name": "thread",
+      "value": "11160-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "tests.test_feed"
+    }
+  ],
+  "titlePath": [
+    "tests",
+    "test_feed.py",
+    "TestFeed"
+  ]
+}

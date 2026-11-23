@@ -1,0 +1,89 @@
+{
+  "name": "Открытие деталей заказа из ленты",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "Открыть страницу '/feed'",
+      "status": "passed",
+      "parameters": [
+        {
+          "name": "path",
+          "value": "'/feed'"
+        }
+      ],
+      "start": 1795416849942,
+      "stop": 1795416850693
+    },
+    {
+      "name": "Открыть заказ 25354 в ленте",
+      "status": "passed",
+      "parameters": [
+        {
+          "name": "number",
+          "value": "25354"
+        }
+      ],
+      "start": 1795416851156,
+      "stop": 1795416851227
+    }
+  ],
+  "parameters": [
+    {
+      "name": "browser_name",
+      "value": "'chrome'"
+    }
+  ],
+  "start": 1795416849941,
+  "stop": 1795416851262,
+  "uuid": "2ecf59e7-cd70-46c0-9007-c13ce35a190b",
+  "historyId": "5e757eaf12f4a0677764ca7f70df3224",
+  "testCaseId": "a4ebeb3eaab6618f0936fc9360bd4641",
+  "fullName": "tests.test_feed.TestFeed#test_open_order_details",
+  "labels": [
+    {
+      "name": "browser",
+      "value": "chrome"
+    },
+    {
+      "name": "feature",
+      "value": "Лента заказов"
+    },
+    {
+      "name": "parentSuite",
+      "value": "tests"
+    },
+    {
+      "name": "suite",
+      "value": "test_feed"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestFeed"
+    },
+    {
+      "name": "host",
+      "value": "WIN-IJRG074EARB"
+    },
+    {
+      "name": "thread",
+      "value": "11160-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "tests.test_feed"
+    }
+  ],
+  "titlePath": [
+    "tests",
+    "test_feed.py",
+    "TestFeed"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "uuid": "d95fcbc3-0899-4f7e-808e-991d7a365159",
+  "befores": [
+    {
+      "name": "browser_name",
+      "status": "passed",
+      "start": 1795416924537,
+      "stop": 1795416924537
+    }
+  ],
+  "start": 1795416924537,
+  "stop": 1795416934737
+}

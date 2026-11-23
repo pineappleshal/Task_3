@@ -1,0 +1,36 @@
+{
+  "uuid": "20b11d64-7705-4579-9bd9-f23932752300",
+  "children": [
+    "971ed01b-1b41-4217-915b-10eda478a9ed"
+  ],
+  "befores": [
+    {
+      "name": "authorized_constructor",
+      "status": "passed",
+      "steps": [
+        {
+          "name": "Открыть страницу '/login'",
+          "status": "passed",
+          "parameters": [
+            {
+              "name": "path",
+              "value": "'/login'"
+            }
+          ],
+          "start": 1795416864972,
+          "stop": 1795416866247
+        },
+        {
+          "name": "Войти под тестовым пользователем",
+          "status": "passed",
+          "start": 1795416866247,
+          "stop": 1795416866982
+        }
+      ],
+      "start": 1795416864972,
+      "stop": 1795416866994
+    }
+  ],
+  "start": 1795416864972,
+  "stop": 1795416869392
+}

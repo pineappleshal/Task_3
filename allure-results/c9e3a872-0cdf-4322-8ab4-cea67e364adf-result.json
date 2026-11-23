@@ -1,0 +1,97 @@
+{
+  "name": "Новый заказ отображается в разделе В работе",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "Собрать бургер",
+      "status": "passed",
+      "steps": [
+        {
+          "name": "Добавить соус в конструктор",
+          "status": "passed",
+          "start": 1795416927827,
+          "stop": 1795416927896
+        }
+      ],
+      "start": 1795416927768,
+      "stop": 1795416927896
+    },
+    {
+      "name": "Оформить заказ",
+      "status": "passed",
+      "start": 1795416927897,
+      "stop": 1795416928582
+    },
+    {
+      "name": "Закрыть всплывающее окно",
+      "status": "passed",
+      "start": 1795416928582,
+      "stop": 1795416928662
+    },
+    {
+      "name": "Перейти в ленту заказов",
+      "status": "passed",
+      "start": 1795416928662,
+      "stop": 1795416928942
+    }
+  ],
+  "parameters": [
+    {
+      "name": "browser_name",
+      "value": "'chrome'"
+    }
+  ],
+  "start": 1795416927768,
+  "stop": 1795416932528,
+  "uuid": "7c72400a-a892-4631-a5e0-8c7997ca94d0",
+  "historyId": "a09fc9fa1349c149e9a87f8b184c216c",
+  "testCaseId": "b1f64415524f2ac0d1250e9f8c9d50b1",
+  "fullName": "tests.test_feed.TestFeed#test_new_order_in_progress",
+  "labels": [
+    {
+      "name": "browser",
+      "value": "chrome"
+    },
+    {
+      "name": "feature",
+      "value": "Лента заказов"
+    },
+    {
+      "name": "parentSuite",
+      "value": "tests"
+    },
+    {
+      "name": "suite",
+      "value": "test_feed"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestFeed"
+    },
+    {
+      "name": "host",
+      "value": "WIN-IJRG074EARB"
+    },
+    {
+      "name": "thread",
+      "value": "11160-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "tests.test_feed"
+    }
+  ],
+  "titlePath": [
+    "tests",
+    "test_feed.py",
+    "TestFeed"
+  ]
+}

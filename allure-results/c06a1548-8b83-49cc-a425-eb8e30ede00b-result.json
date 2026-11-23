@@ -1,0 +1,77 @@
+{
+  "name": "Выход из аккаунта",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "Перейти в личный кабинет",
+      "status": "passed",
+      "start": 1795416750200,
+      "stop": 1795416750250
+    },
+    {
+      "name": "Выйти из аккаунта",
+      "status": "passed",
+      "start": 1795416750251,
+      "stop": 1795416750797
+    }
+  ],
+  "parameters": [
+    {
+      "name": "browser_name",
+      "value": "'chrome'"
+    }
+  ],
+  "start": 1795416750199,
+  "stop": 1795416751322,
+  "uuid": "b5355718-85b3-44f3-bdc1-4afeb45816ec",
+  "historyId": "a4fd20651a4034e37b375f6db12ec794",
+  "testCaseId": "90356f1a82f0f7bef297b4d66c56c1c6",
+  "fullName": "tests.test_account.TestAccount#test_logout",
+  "labels": [
+    {
+      "name": "browser",
+      "value": "chrome"
+    },
+    {
+      "name": "feature",
+      "value": "Личный кабинет"
+    },
+    {
+      "name": "parentSuite",
+      "value": "tests"
+    },
+    {
+      "name": "suite",
+      "value": "test_account"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestAccount"
+    },
+    {
+      "name": "host",
+      "value": "WIN-IJRG074EARB"
+    },
+    {
+      "name": "thread",
+      "value": "11160-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "tests.test_account"
+    }
+  ],
+  "titlePath": [
+    "tests",
+    "test_account.py",
+    "TestAccount"
+  ]
+}
