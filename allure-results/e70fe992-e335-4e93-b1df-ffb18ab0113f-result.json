@@ -1,0 +1,89 @@
+{
+  "name": "Закрытие деталей ингредиента крестиком",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "Открыть страницу '/'",
+      "status": "passed",
+      "parameters": [
+        {
+          "name": "path",
+          "value": "'/'"
+        }
+      ],
+      "start": 1795416815406,
+      "stop": 1795416815881
+    },
+    {
+      "name": "Открыть детали первой булки",
+      "status": "passed",
+      "start": 1795416815881,
+      "stop": 1795416816152
+    },
+    {
+      "name": "Закрыть всплывающее окно",
+      "status": "passed",
+      "start": 1795416816152,
+      "stop": 1795416816290
+    }
+  ],
+  "parameters": [
+    {
+      "name": "browser_name",
+      "value": "'firefox'"
+    }
+  ],
+  "start": 1795416815406,
+  "stop": 1795416816314,
+  "uuid": "e0988a7c-52bb-4dfe-97f7-a71bc3b48b85",
+  "historyId": "e7b3290b8ba8048519195166477c06d7",
+  "testCaseId": "69607d9283fb0253a239c1655e03e072",
+  "fullName": "tests.test_constructor.TestConstructor#test_close_ingredient_details",
+  "labels": [
+    {
+      "name": "browser",
+      "value": "firefox"
+    },
+    {
+      "name": "feature",
+      "value": "Конструктор"
+    },
+    {
+      "name": "parentSuite",
+      "value": "tests"
+    },
+    {
+      "name": "suite",
+      "value": "test_constructor"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestConstructor"
+    },
+    {
+      "name": "host",
+      "value": "WIN-IJRG074EARB"
+    },
+    {
+      "name": "thread",
+      "value": "11160-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "tests.test_constructor"
+    }
+  ],
+  "titlePath": [
+    "tests",
+    "test_constructor.py",
+    "TestConstructor"
+  ]
+}

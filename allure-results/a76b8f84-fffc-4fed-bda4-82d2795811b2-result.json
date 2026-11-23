@@ -1,0 +1,89 @@
+{
+  "name": "Закрытие деталей ингредиента крестиком",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "Открыть страницу '/'",
+      "status": "passed",
+      "parameters": [
+        {
+          "name": "path",
+          "value": "'/'"
+        }
+      ],
+      "start": 1795416806656,
+      "stop": 1795416808106
+    },
+    {
+      "name": "Открыть детали первой булки",
+      "status": "passed",
+      "start": 1795416808106,
+      "stop": 1795416808207
+    },
+    {
+      "name": "Закрыть всплывающее окно",
+      "status": "passed",
+      "start": 1795416808207,
+      "stop": 1795416808265
+    }
+  ],
+  "parameters": [
+    {
+      "name": "browser_name",
+      "value": "'chrome'"
+    }
+  ],
+  "start": 1795416806656,
+  "stop": 1795416808275,
+  "uuid": "2fdf70f4-08b8-4d7d-acec-e5e2c536a4dd",
+  "historyId": "977ee27d89139d917a1ee1b087554634",
+  "testCaseId": "69607d9283fb0253a239c1655e03e072",
+  "fullName": "tests.test_constructor.TestConstructor#test_close_ingredient_details",
+  "labels": [
+    {
+      "name": "browser",
+      "value": "chrome"
+    },
+    {
+      "name": "feature",
+      "value": "Конструктор"
+    },
+    {
+      "name": "parentSuite",
+      "value": "tests"
+    },
+    {
+      "name": "suite",
+      "value": "test_constructor"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestConstructor"
+    },
+    {
+      "name": "host",
+      "value": "WIN-IJRG074EARB"
+    },
+    {
+      "name": "thread",
+      "value": "11160-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "tests.test_constructor"
+    }
+  ],
+  "titlePath": [
+    "tests",
+    "test_constructor.py",
+    "TestConstructor"
+  ]
+}

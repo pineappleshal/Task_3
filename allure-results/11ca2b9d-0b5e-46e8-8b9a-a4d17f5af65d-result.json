@@ -1,0 +1,89 @@
+{
+  "name": "Ввод почты и переход к сбросу пароля",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "Открыть страницу '/forgot-password'",
+      "status": "passed",
+      "parameters": [
+        {
+          "name": "path",
+          "value": "'/forgot-password'"
+        }
+      ],
+      "start": 1795416963157,
+      "stop": 1795416964379
+    },
+    {
+      "name": "Запросить восстановление пароля для тестового пользователя",
+      "status": "passed",
+      "parameters": [
+        {
+          "name": "email",
+          "value": "'valeriia_ui_584e628d76344aa4aa2a9ea7b06183d1@example.com'"
+        }
+      ],
+      "start": 1795416964379,
+      "stop": 1795416964574
+    }
+  ],
+  "parameters": [
+    {
+      "name": "browser_name",
+      "value": "'chrome'"
+    }
+  ],
+  "start": 1795416963157,
+  "stop": 1795416965613,
+  "uuid": "cddca246-3c36-4831-96bf-0c0cc1d93b7e",
+  "historyId": "5adced0b2191a1be303579610da45d34",
+  "testCaseId": "9eae3121fdf18eede9da533d0231c7ee",
+  "fullName": "tests.test_password_recovery.TestPasswordRecovery#test_send_recovery_email",
+  "labels": [
+    {
+      "name": "browser",
+      "value": "chrome"
+    },
+    {
+      "name": "feature",
+      "value": "Восстановление пароля"
+    },
+    {
+      "name": "parentSuite",
+      "value": "tests"
+    },
+    {
+      "name": "suite",
+      "value": "test_password_recovery"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestPasswordRecovery"
+    },
+    {
+      "name": "host",
+      "value": "WIN-IJRG074EARB"
+    },
+    {
+      "name": "thread",
+      "value": "11160-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "tests.test_password_recovery"
+    }
+  ],
+  "titlePath": [
+    "tests",
+    "test_password_recovery.py",
+    "TestPasswordRecovery"
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "name": "Авторизованный пользователь оформляет заказ",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "Собрать бургер",
+      "status": "passed",
+      "steps": [
+        {
+          "name": "Добавить соус в конструктор",
+          "status": "passed",
+          "start": 1795416835227,
+          "stop": 1795416835268
+        }
+      ],
+      "start": 1795416835188,
+      "stop": 1795416835268
+    },
+    {
+      "name": "Оформить заказ",
+      "status": "passed",
+      "start": 1795416835268,
+      "stop": 1795416835899
+    }
+  ],
+  "parameters": [
+    {
+      "name": "browser_name",
+      "value": "'chrome'"
+    }
+  ],
+  "start": 1795416835188,
+  "stop": 1795416835914,
+  "uuid": "8240f196-fb37-481f-8d15-a8b3f0ef14ba",
+  "historyId": "959760587ef17811eeddf8dad46e3bd1",
+  "testCaseId": "a7a65589813c8591d80aa1e28881530e",
+  "fullName": "tests.test_constructor.TestConstructor#test_place_order",
+  "labels": [
+    {
+      "name": "browser",
+      "value": "chrome"
+    },
+    {
+      "name": "feature",
+      "value": "Конструктор"
+    },
+    {
+      "name": "parentSuite",
+      "value": "tests"
+    },
+    {
+      "name": "suite",
+      "value": "test_constructor"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestConstructor"
+    },
+    {
+      "name": "host",
+      "value": "WIN-IJRG074EARB"
+    },
+    {
+      "name": "thread",
+      "value": "11160-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "tests.test_constructor"
+    }
+  ],
+  "titlePath": [
+    "tests",
+    "test_constructor.py",
+    "TestConstructor"
+  ]
+}

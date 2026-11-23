@@ -1,0 +1,83 @@
+{
+  "name": "Переход по ссылке восстановления пароля",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "Открыть страницу '/login'",
+      "status": "passed",
+      "parameters": [
+        {
+          "name": "path",
+          "value": "'/login'"
+        }
+      ],
+      "start": 1795416958459,
+      "stop": 1795416959073
+    },
+    {
+      "name": "Перейти к восстановлению пароля",
+      "status": "passed",
+      "start": 1795416959074,
+      "stop": 1795416959260
+    }
+  ],
+  "parameters": [
+    {
+      "name": "browser_name",
+      "value": "'firefox'"
+    }
+  ],
+  "start": 1795416958459,
+  "stop": 1795416959308,
+  "uuid": "1857adcb-e765-42c9-bb0b-f7613c556894",
+  "historyId": "51bf18d11c23d1b6db12171fc90d9c64",
+  "testCaseId": "5e2d469026d84c90b28aca084e43d7db",
+  "fullName": "tests.test_password_recovery.TestPasswordRecovery#test_open_password_recovery",
+  "labels": [
+    {
+      "name": "browser",
+      "value": "firefox"
+    },
+    {
+      "name": "feature",
+      "value": "Восстановление пароля"
+    },
+    {
+      "name": "parentSuite",
+      "value": "tests"
+    },
+    {
+      "name": "suite",
+      "value": "test_password_recovery"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestPasswordRecovery"
+    },
+    {
+      "name": "host",
+      "value": "WIN-IJRG074EARB"
+    },
+    {
+      "name": "thread",
+      "value": "11160-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "tests.test_password_recovery"
+    }
+  ],
+  "titlePath": [
+    "tests",
+    "test_password_recovery.py",
+    "TestPasswordRecovery"
+  ]
+}

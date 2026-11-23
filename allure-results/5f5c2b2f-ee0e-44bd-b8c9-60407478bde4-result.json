@@ -1,0 +1,109 @@
+{
+  "name": "Новый заказ увеличивает счётчик за сегодня",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "Перейти в ленту заказов",
+      "status": "passed",
+      "start": 1795416907388,
+      "stop": 1795416907431
+    },
+    {
+      "name": "Перейти в конструктор",
+      "status": "passed",
+      "start": 1795416907961,
+      "stop": 1795416907999
+    },
+    {
+      "name": "Собрать бургер",
+      "status": "passed",
+      "steps": [
+        {
+          "name": "Добавить соус в конструктор",
+          "status": "passed",
+          "start": 1795416908049,
+          "stop": 1795416908105
+        }
+      ],
+      "start": 1795416907999,
+      "stop": 1795416908105
+    },
+    {
+      "name": "Оформить заказ",
+      "status": "passed",
+      "start": 1795416908105,
+      "stop": 1795416908767
+    },
+    {
+      "name": "Закрыть всплывающее окно",
+      "status": "passed",
+      "start": 1795416908767,
+      "stop": 1795416908813
+    },
+    {
+      "name": "Перейти в ленту заказов",
+      "status": "passed",
+      "start": 1795416908813,
+      "stop": 1795416909065
+    }
+  ],
+  "parameters": [
+    {
+      "name": "browser_name",
+      "value": "'chrome'"
+    }
+  ],
+  "start": 1795416907387,
+  "stop": 1795416909732,
+  "uuid": "23e56c09-d4d9-4f93-977f-0dc168772887",
+  "historyId": "8e9a076ca0ce72b8fbeb22b000486305",
+  "testCaseId": "daca83593e82ac6a63f6fa0240d9d22d",
+  "fullName": "tests.test_feed.TestFeed#test_today_counter_increases",
+  "labels": [
+    {
+      "name": "browser",
+      "value": "chrome"
+    },
+    {
+      "name": "feature",
+      "value": "Лента заказов"
+    },
+    {
+      "name": "parentSuite",
+      "value": "tests"
+    },
+    {
+      "name": "suite",
+      "value": "test_feed"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestFeed"
+    },
+    {
+      "name": "host",
+      "value": "WIN-IJRG074EARB"
+    },
+    {
+      "name": "thread",
+      "value": "11160-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "tests.test_feed"
+    }
+  ],
+  "titlePath": [
+    "tests",
+    "test_feed.py",
+    "TestFeed"
+  ]
+}

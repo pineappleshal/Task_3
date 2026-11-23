@@ -1,0 +1,77 @@
+{
+  "name": "Переход в историю заказов",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "Перейти в личный кабинет",
+      "status": "passed",
+      "start": 1795416733867,
+      "stop": 1795416733916
+    },
+    {
+      "name": "Перейти в историю заказов",
+      "status": "passed",
+      "start": 1795416733916,
+      "stop": 1795416734489
+    }
+  ],
+  "parameters": [
+    {
+      "name": "browser_name",
+      "value": "'chrome'"
+    }
+  ],
+  "start": 1795416733867,
+  "stop": 1795416734508,
+  "uuid": "f417dc22-6f78-460d-b0c2-70551a5000e2",
+  "historyId": "3fe819ae5d98bbc8c28528f04ad312d3",
+  "testCaseId": "ae59fb8506d61a297a423b0f135105a4",
+  "fullName": "tests.test_account.TestAccount#test_open_order_history",
+  "labels": [
+    {
+      "name": "browser",
+      "value": "chrome"
+    },
+    {
+      "name": "feature",
+      "value": "Личный кабинет"
+    },
+    {
+      "name": "parentSuite",
+      "value": "tests"
+    },
+    {
+      "name": "suite",
+      "value": "test_account"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestAccount"
+    },
+    {
+      "name": "host",
+      "value": "WIN-IJRG074EARB"
+    },
+    {
+      "name": "thread",
+      "value": "11160-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "tests.test_account"
+    }
+  ],
+  "titlePath": [
+    "tests",
+    "test_account.py",
+    "TestAccount"
+  ]
+}

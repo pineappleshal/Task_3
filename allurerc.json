@@ -1,0 +1,4 @@
+{
+  "name": "Task_3 — веб-приложение Stellar Burgers",
+  "plugins": {"awesome": {"options": {"singleFile": true, "reportLanguage": "ru"}}}
+}

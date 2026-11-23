@@ -1,0 +1,83 @@
+{
+  "name": "Переход по ссылке Конструктор",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "Открыть страницу '/feed'",
+      "status": "passed",
+      "parameters": [
+        {
+          "name": "path",
+          "value": "'/feed'"
+        }
+      ],
+      "start": 1795416772584,
+      "stop": 1795416772941
+    },
+    {
+      "name": "Перейти в конструктор",
+      "status": "passed",
+      "start": 1795416773493,
+      "stop": 1795416773651
+    }
+  ],
+  "parameters": [
+    {
+      "name": "browser_name",
+      "value": "'firefox'"
+    }
+  ],
+  "start": 1795416772584,
+  "stop": 1795416773685,
+  "uuid": "734a6f54-6802-4fc1-8874-92b34bec97fa",
+  "historyId": "c3ade1aad7caedd7f5a0d6dc33d2e2df",
+  "testCaseId": "9f2e13867ee93be87332cd6d51b956bb",
+  "fullName": "tests.test_constructor.TestConstructor#test_open_constructor",
+  "labels": [
+    {
+      "name": "browser",
+      "value": "firefox"
+    },
+    {
+      "name": "feature",
+      "value": "Конструктор"
+    },
+    {
+      "name": "parentSuite",
+      "value": "tests"
+    },
+    {
+      "name": "suite",
+      "value": "test_constructor"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestConstructor"
+    },
+    {
+      "name": "host",
+      "value": "WIN-IJRG074EARB"
+    },
+    {
+      "name": "thread",
+      "value": "11160-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "tests.test_constructor"
+    }
+  ],
+  "titlePath": [
+    "tests",
+    "test_constructor.py",
+    "TestConstructor"
+  ]
+}
